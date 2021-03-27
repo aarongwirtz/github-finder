@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/layout/Navbar';
 import Users from './components/users/Users';
+import Test from './components/users/Test';
 import axios from 'axios';
 import './App.css';
 // import Someusers from './components/users/Someusers';
@@ -27,6 +28,7 @@ class App extends Component {
             <Users loading={this.state.loading} users={this.state.users}/>
             {/* <Someusers name={'Ethan'} age={37}/> */}
           </div>
+          <Test />
       </div>
     );
   }

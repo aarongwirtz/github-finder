@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import UserItem from './UserItem';
 
 class Users extends Component {
-
     render() {
+        //console.log(this.props.users)
         return (
             <div style={userStyle}>
                 {this.props.users.map(user => (
