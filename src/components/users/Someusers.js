@@ -14,7 +14,7 @@ class Someusers extends Component {
         )
     }
 }
-Someusers.propTypes ={
+Someusers.propTypes = { 
     name: PropTypes.string.isRequired,
     age: PropTypes.number.isRequired
 }
