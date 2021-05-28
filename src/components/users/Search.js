@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 
 export class Search extends Component {
-    state = {
-        text: ''
-    };
+    constructor(props) {
+        super(props);
+        this.state = {
+            text: ''
+        };
+    }
 
     onChange = (e) => {
         this.setState({ text: e.target.value });
